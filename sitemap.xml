@@ -6,42 +6,10 @@
     
     <!-- Homepage -->
     <url>
-        <loc>https://makamithi.inspirehub.co.ke/</loc>
-        <lastmod>2025-11-18</lastmod>
+        <loc>https://makamithi.com/</loc>
+        <lastmod>2025-02-07</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
-    </url>
-    
-    <!-- About Section -->
-    <url>
-        <loc>https://makamithi.inspirehub.co.ke/#about</loc>
-        <lastmod>2025-11-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <!-- Products Section -->
-    <url>
-        <loc>https://makamithi.inspirehub.co.ke/#products</loc>
-        <lastmod>2025-11-18</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-    </url>
-    
-    <!-- Services Section -->
-    <url>
-        <loc>https://makamithi.inspirehub.co.ke/#services</loc>
-        <lastmod>2025-11-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <!-- Contact Section -->
-    <url>
-        <loc>https://makamithi.inspirehub.co.ke/#contact</loc>
-        <lastmod>2025-11-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
     </url>
     
 </urlset>
