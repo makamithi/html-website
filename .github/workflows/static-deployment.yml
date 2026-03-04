@@ -22,7 +22,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Cache-bust asset URLs
-        run: sed -i "s/__CACHE_BUST__/$(date +%s)/g" index.html
+        run: |
+          TIMESTAMP=$(date +%s)
+          sed -i "s/__CACHE_BUST__/${TIMESTAMP}/g" index.html
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
