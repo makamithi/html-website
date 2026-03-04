@@ -216,8 +216,6 @@
                 //     headers: { 'Accept': 'application/json' }
                 // });
                 
-                console.log('Form submitted:', data);
-                
                 // Show success message
                 successMessage.classList.add('show');
                 successMessage.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
@@ -237,7 +235,6 @@
                 }, 5000);
                 
             } catch (error) {
-                console.error('Form submission error:', error);
                 errorText.textContent = 'Failed to send message. Please try WhatsApp instead.';
                 errorMessage.classList.add('show');
                 errorMessage.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
